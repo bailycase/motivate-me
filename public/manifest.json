@@ -1,0 +1,12 @@
+{
+  "name": "Next + React + GraphQL example project",
+  "short_name": "Next",
+  "description": "Starter kit for creating high performance websites with React and GraphQL",
+  "dir": "auto",
+  "lang": "en",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "/",
+  "background_color": "#fff",
+  "theme_color": "#D80098"
+}
