@@ -36,6 +36,7 @@ passport.deserializeUser(async (serializedUser, done) => {
 })
 
 // export middleware to wrap api/auth handlers
+//@ts-ignore
 export default fn => (req: any, res: any) => {
     if (!res.redirect) {
         // passport.js needs res.redirect:
