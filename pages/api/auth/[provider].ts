@@ -1,5 +1,5 @@
 import { NextApiResponse, NextApiRequest } from 'next'
-import withPassport, { passport } from '../../../../lib/withPassport'
+import withPassport, { passport } from '../../../lib/withPassport'
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     const { provider } = req.query
@@ -10,7 +10,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     passport.authenticate(provider, {
         failureRedirect: '/auth',
         successRedirect: '/',
-    })(req, res, (...args) => {
+    })(req, res, (...args: any) => {
         console.log('auth callback', args)
         return true
     })

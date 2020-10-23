@@ -1,6 +1,7 @@
 import passport from 'passport'
 import cookieSession from 'cookie-session'
 import url from 'url'
+//@ts-ignore
 import redirect from 'micro-redirect'
 // import { github } from './passport'
 // import { UserIdentity } from './withIdentity'
