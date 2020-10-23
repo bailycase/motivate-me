@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface AddLogoProps {
-  color?: string;
-}
-
-const AddLogo = (props: AddLogoProps) => {
+const AddLogo = () => {
   return (
     <svg
       width='25'

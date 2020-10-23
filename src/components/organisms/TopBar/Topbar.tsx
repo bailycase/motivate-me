@@ -1,12 +1,10 @@
 import React from 'react';
-import styled, { withTheme } from 'styled-components';
+import styled from 'styled-components';
 import LogoutLogo from '../../../assets/Logout';
 import MotivateLogo from '../../../assets/Motivate';
 import Header from '../../atoms/Header';
 import { FlexRow } from '../../atoms/Helpers';
 import Text from '../../atoms/Text';
-
-interface Props {}
 
 const StyledTopbar = styled.div`
   width: 100vw;
@@ -39,7 +37,7 @@ const RightContainer = styled(FlexRow)`
 const ProfileContainer = styled(FlexRow)`
   width: 200px;
 `;
-const Topbar = (props: Props) => {
+const Topbar = () => {
   return (
     <StyledTopbar>
       <FlexRow align={'center'} grow={1}>
@@ -56,10 +54,10 @@ const Topbar = (props: Props) => {
           </ProfilePicture>
           <Text size={'25px'}>Baily Case</Text>
         </ProfileContainer>
-        <LogoutLogo color={'#3a86ff'} />
+        <LogoutLogo />
       </RightContainer>
     </StyledTopbar>
   );
 };
 
-export default withTheme(Topbar);
+export default Topbar;

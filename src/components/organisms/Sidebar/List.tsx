@@ -1,7 +1,6 @@
-import React, { ReactComponentElement, ReactElement, useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import { useSprings, animated, useSpring } from 'react-spring';
-import { reduceEachTrailingCommentRange } from 'typescript';
+import { animated, useSpring } from 'react-spring';
 
 interface Props {
   listItems: Array<ListItem>;

@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface DeleteLogoProps {
-  color?: string;
-}
-
-const DeleteLogo = (props: DeleteLogoProps) => {
+const DeleteLogo = () => {
   return (
     <svg
       width='20'

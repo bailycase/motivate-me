@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface EditLogoProps {
-  color?: string;
-}
-
-const EditLogo = (props: EditLogoProps) => {
+const EditLogo = () => {
   return (
     <svg
       width='20'

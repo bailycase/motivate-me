@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface CheckLogoProps {
-  color?: string;
-}
-
-const ChecksLogo = (props: CheckLogoProps) => {
+const ChecksLogo = () => {
   return (
     <svg
       width='139'

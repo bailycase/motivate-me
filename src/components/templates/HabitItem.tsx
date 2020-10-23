@@ -4,12 +4,8 @@ import CaratLogo from '../../assets/Carat';
 import Header from '../atoms/Header';
 import Text from '../atoms/Text';
 import { FlexColumn, FlexRow } from '../atoms/Helpers';
-import Card from '../organisms/Card/Card';
-import LogoutLogo from '../../assets/Logout';
 import EditLogo from '../../assets/Edit';
 import DeleteLogo from '../../assets/Delete';
-
-interface Props {}
 
 const HabitCard = styled(FlexColumn)`
   background-color: white;
@@ -57,7 +53,7 @@ const TimeContainer = styled.div`
   justify-content: center;
 `;
 
-const HabitItem = (props: Props) => {
+const HabitItem = () => {
   return (
     <HabitCard>
       <HabitHeader>

@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface MotivateLogoProps {
-  color?: string;
-}
-
-const MotivateLogo = (props: MotivateLogoProps) => {
+const MotivateLogo = () => {
   return (
     <svg
       width='65'

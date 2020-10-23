@@ -1,13 +1,8 @@
-import React, { useEffect, useRef } from 'react';
-import { Pie, LinePath, Arc } from '@visx/shape';
+import React from 'react';
+import { Arc } from '@visx/shape';
 import { Group } from '@visx/group';
 import styled from 'styled-components';
-import { GradientPurpleOrange, GradientOrangeRed } from '@visx/gradient';
-import { useTooltip, useTooltipInPortal } from '@visx/tooltip';
-import Text from '../../../atoms/Text';
-import Header from '../../../atoms/Header';
-import { isPropertySignature } from 'typescript';
-import { Seperator } from '../../../atoms/Seperator';
+import { GradientOrangeRed } from '@visx/gradient';
 import ChartIndicator from './ChartIndicator';
 
 interface Props {

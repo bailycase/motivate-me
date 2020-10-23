@@ -1,25 +1,13 @@
-import React, { useState } from 'react';
-import { extent, max } from 'd3-array';
-import * as allCurves from '@visx/curve';
+import React from 'react';
 import { Group } from '@visx/group';
-import { LinePath, Circle } from '@visx/shape';
+import { Circle } from '@visx/shape';
 import { Point } from '@visx/point';
 import { AxisLeft, AxisBottom } from '@visx/axis';
 import { scaleLinear, scaleBand } from '@visx/scale';
-import { MarkerCircle } from '@visx/marker';
-import {
-  interpolateCool,
-  interpolatePlasma,
-  interpolateRainbow,
-  interpolateTurbo,
-} from 'd3-scale-chromatic';
-import generateDateValue, {
-  DateValue,
-} from '@visx/mock-data/lib/generators/genDateValue';
+import { interpolatePlasma } from 'd3-scale-chromatic';
 
-import { GridRows, GridColumns } from '@visx/grid';
+import { GridRows } from '@visx/grid';
 import styled from 'styled-components';
-import Text from '../../../atoms/Text';
 
 export type ChartProps = {
   width: number;

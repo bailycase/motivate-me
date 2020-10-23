@@ -50,7 +50,7 @@ const Footer = styled.div`
   width: 60%;
 `;
 
-const Sidebar = ({ open = true, children, width }: SidebarProps) => {
+const Sidebar = ({ children, width }: SidebarProps) => {
   return <StyledSidebar width={width}>{children}</StyledSidebar>;
 };
 

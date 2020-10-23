@@ -3,7 +3,7 @@ import { DefaultTheme } from "styled-components"
 interface Themes {
     [key: string]: DefaultTheme
 }
-const theme = {
+const theme: Themes = {
     light: {
         palette: {
             text: '#334661',

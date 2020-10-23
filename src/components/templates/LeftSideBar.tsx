@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../atoms/Header';
 import Text from '../atoms/Text';
-import { RoundProfilePicture } from '../atoms/RoundProfilePicture';
 import List from '../organisms/Sidebar/List';
 import Sidebar from '../organisms/Sidebar/Sidebar';
 import HomeLogo from '../../assets/Home';
@@ -9,15 +8,13 @@ import ChecksLogo from '../../assets/Checks';
 import LogoutLogo from '../../assets/Logout';
 import { FlexRow } from '../atoms/Helpers';
 
-interface Props {}
-
 const items = [
   { title: 'start' },
   { title: 'Home', Icon: HomeLogo },
   { title: 'Habits', Icon: ChecksLogo },
   { title: 'end' },
 ];
-const LeftSideBar = (props: Props) => {
+const LeftSideBar = () => {
   return (
     <Sidebar width={'20%'}>
       <>

@@ -1,9 +1,4 @@
-import React, { FunctionComponent } from 'react';
-import styled, {
-  AnyStyledComponent,
-  StyledComponent,
-  StyledComponentBase,
-} from 'styled-components';
+import styled, { StyledComponent } from 'styled-components';
 
 type flexDirection = 'column' | 'row';
 

@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface CaratLogoProps {
-  color?: string;
-}
-
-const CaratLogo = (props: CaratLogoProps) => {
+const CaratLogo = () => {
   return (
     <svg
       width='15'

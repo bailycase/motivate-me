@@ -6,7 +6,6 @@ import Text from '../atoms/Text';
 import HabitSearch from '../templates/HabitSearch';
 import TodoItem from '../templates/HabitItem';
 
-interface Props {}
 interface FilterTextProps {
   active?: boolean;
 }
@@ -64,7 +63,7 @@ const HabitCards = styled.div`
   padding: 20px;
 `;
 
-const Habits = (props: Props) => {
+const Habits = () => {
   return (
     <HabitsContainer>
       <HabitHeader>

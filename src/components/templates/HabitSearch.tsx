@@ -5,8 +5,6 @@ import Button from '../atoms/Button';
 import { FlexRow } from '../atoms/Helpers';
 import SearchInput from '../organisms/Search/SearchInput';
 
-interface Props {}
-
 const HabitSearchContainer = styled(FlexRow)`
   align-items: center;
   justify-content: space-around;
@@ -14,7 +12,7 @@ const HabitSearchContainer = styled(FlexRow)`
   padding-bottom: 50px;
 `;
 
-const HabitSearch = (props: Props) => {
+const HabitSearch = () => {
   return (
     <HabitSearchContainer>
       <SearchInput />

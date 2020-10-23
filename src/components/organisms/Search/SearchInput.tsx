@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-interface Props {}
-
 const StyledInput = styled.input`
   width: 90%;
   height: 100%;
@@ -15,7 +13,7 @@ const StyledInput = styled.input`
   color: ${(props) => props.theme.palette.textSoft};
 `;
 
-const SearchInput = (props: Props) => {
+const SearchInput = () => {
   return <StyledInput placeholder={'Search for habits...'}></StyledInput>;
 };
 

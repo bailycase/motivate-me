@@ -1,8 +1,6 @@
 import React from 'react';
 
-interface Props {}
-
-const HabitsScreen = (props: Props) => {
+const HabitsScreen = () => {
   return <div></div>;
 };
 

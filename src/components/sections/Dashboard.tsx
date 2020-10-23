@@ -2,17 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Card from '../organisms/Card/Card';
 import BarChart from '../organisms/Graphs/BarChart/BarChart';
-import LeftSideBar from '../templates/LeftSideBar';
-import RightSideBar from '../templates/RightSideBar';
-import YogaLogo from '../../assets/Yoga';
-import Header from '../atoms/Header';
-import Text from '../atoms/Text';
 import { ParentSize } from '@visx/responsive';
 import IconCard from '../templates/IconCard';
 import PieChart from '../organisms/Graphs/PieChart/PieChart';
-import { format } from 'date-fns';
-
-interface Props {}
 
 const StyledDashboard = styled.div`
   display: flex;
@@ -39,12 +31,6 @@ const MidSection = styled.div`
   width: auto;
   min-height: 45%;
   height: 100%;
-`;
-const BottomSection = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  width: auto;
-  height: 20%;
 `;
 
 const data = {
@@ -80,8 +66,7 @@ const data = {
   ],
 };
 
-const Dashboard = (props: Props) => {
-  const date = new Date();
+const Dashboard = () => {
   return (
     <StyledDashboard>
       <DashboardContent>

@@ -1,8 +1,6 @@
 import React from 'react';
 
-interface Props {}
-
-const Login = (props: Props) => {
+const Login = () => {
   return <div>login</div>;
 };
 

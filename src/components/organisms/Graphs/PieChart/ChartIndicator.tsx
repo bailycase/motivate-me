@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from '../../../atoms/Header';
-import Text from '../../../atoms/Text';
 import { Seperator } from '../../../atoms/Seperator';
 
 interface Props {

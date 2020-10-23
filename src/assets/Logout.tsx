@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface LogoutLogoProps {
-  color?: string;
-}
-
-const LogoutLogo = (props: LogoutLogoProps) => {
+const LogoutLogo = () => {
   return (
     <svg
       width='25'

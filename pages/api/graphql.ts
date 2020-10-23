@@ -11,7 +11,7 @@ const typeDefs = gql`
 
 const resolvers = {
     Query: {
-        users(parent: any, args: any, context: any) {
+        users() {
             return [{ name: 'Nextjs' }]
         },
     },
